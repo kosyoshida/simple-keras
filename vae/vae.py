@@ -95,7 +95,7 @@ class VAE():
             if epoch % disp_freq == 0:
                 print ("epoch %d loss.: %.2f" % (epoch, vae_loss))
             if epoch % save_freq == 0:
-                self.sample_image(X, y, epoch)
+                self.sample_image(X[:1000], y[:1000], epoch)
                 
                 self.encoder.save('result_model/encoder' + str(epoch) + '.h5')
                 self.vae.save('result_model/vae' + str(epoch) + '.h5')
