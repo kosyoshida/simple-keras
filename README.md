@@ -1,7 +1,6 @@
 # simple-keras
 simple implementation of deep learning algorithms using keras
 
-## requirement
 Keras==2.1.6  
 matplotlib==2.0.2  
 numpy==1.14.5  
