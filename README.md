@@ -21,7 +21,7 @@ Thomas Schlegl, et al. 2017, Unsupervised Anomaly Detection with Generative Adve
 <https://arxiv.org/abs/1703.05921>
 
 ## bnn
-dropout as a bayesian approximation
+dropout as a bayesian approximation  
 [reference]
 Yarin Gal, et al. 2016, Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning
 
